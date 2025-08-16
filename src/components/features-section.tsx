@@ -4,35 +4,34 @@ import React from "react";
 
 const features = [
   {
-    description: "Connect with your favorite tools seamlessly",
-    icon: "lucide:puzzle",
-    title: "Easy Integration",
+    description: "Building intelligent systems that leverage LLMs and modern AI technologies",
+    icon: "lucide:brain",
+    title: "AI Product Development",
   },
   {
-    description: "Get insights instantly with powerful dashboards",
-    icon: "lucide:bar-chart",
-    title: "Real-time Analytics",
+    description: "Conducting user research and mixed-methods studies to drive product decisions",
+    icon: "lucide:search",
+    title: "Research Expertise",
   },
   {
-    description: "Enterprise-grade security out of the box",
-    icon: "lucide:shield",
-    title: "Secure by Default",
+    description: "Translating complex technical concepts into clear product strategy and roadmaps",
+    icon: "lucide:lightbulb",
+    title: "Strategic Thinking",
   },
   {
-    description: "Our team is here to help you succeed",
-    icon: "lucide:headphones",
-    title: "24/7 Support",
+    description: "Leading cross-functional teams to deliver impactful AI products responsibly",
+    icon: "lucide:users",
+    title: "Team Leadership",
   },
 ];
-
 export function FeaturesSection() {
   return (
     <section className="bg-background px-4 py-20" id="features">
       <div className="container mx-auto max-w-6xl">
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-3xl font-bold">Why Choose Us</h2>
+          <h2 className="mb-4 text-3xl font-bold">What I Bring</h2>
           <p className="text-default-600 mx-auto max-w-2xl">
-            Discover the features that make our platform stand out from the competition
+            The core strengths and capabilities I bring to AI product development
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">

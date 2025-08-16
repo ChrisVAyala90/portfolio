@@ -6,7 +6,7 @@ export function Header() {
   return (
     <Navbar maxWidth="xl" className="bg-background/70 backdrop-blur-md">
       <NavbarBrand>
-        <p className="font-bold text-inherit text-xl">Alex Morgan</p>
+        <p className="font-bold text-inherit text-xl">Christopher Ayala</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
         <NavbarItem>
@@ -30,7 +30,7 @@ export function Header() {
           <Button 
             as={Link} 
             color="primary" 
-            href="mailto:alex@example.com" 
+            href="mailto:christopher.ayala@example.com" 
             variant="flat"
             endContent={<Icon icon="lucide:mail" />}
           >

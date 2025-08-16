@@ -3,16 +3,15 @@ import { Card, CardBody, Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 const skills = [
+  { name: "LLM Applications", icon: "lucide:brain" },
   { name: "Product Strategy", icon: "lucide:strategy" },
-  { name: "AI/ML", icon: "lucide:brain" },
   { name: "User Research", icon: "lucide:users" },
   { name: "Data Analysis", icon: "lucide:bar-chart-2" },
-  { name: "Agile/Scrum", icon: "lucide:git-branch" },
-  { name: "Prototyping", icon: "lucide:layers" },
+  { name: "Mixed-Methods Research", icon: "lucide:search" },
+  { name: "Responsible AI", icon: "lucide:shield-check" },
   { name: "Python", icon: "logos:python" },
-  { name: "TensorFlow", icon: "logos:tensorflow" },
+  { name: "SQL", icon: "lucide:database" },
 ];
-
 export function AboutSection() {
   return (
     <section id="about" className="px-4 py-20">
@@ -23,7 +22,7 @@ export function AboutSection() {
               <div className="aspect-square rounded-xl overflow-hidden mb-6">
                 <img 
                   src="https://img.heroui.chat/image/avatar?w=400&h=400&u=pm1" 
-                  alt="Alex Morgan" 
+                  alt="Christopher Ayala" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -41,13 +40,13 @@ export function AboutSection() {
             </div>
           </div>
           <div className="md:col-span-2">
-            <h1 className="text-4xl font-bold mb-4">Alex Morgan</h1>
-            <h2 className="text-2xl text-primary mb-6">Product Manager & AI Engineer</h2>
+            <h1 className="text-4xl font-bold mb-4">Christopher Ayala</h1>
+            <h2 className="text-2xl text-primary mb-6">AI Product Engineer</h2>
             <p className="text-default-600 mb-8 text-lg">
-              I'm a product manager and AI engineer with over 8 years of experience building innovative products at the intersection of artificial intelligence and user experience. My passion lies in translating complex technical capabilities into intuitive, valuable user experiences.
+              I'm an AI Product Engineer with a passion for building intelligent systems that amplify human capability. With dual Master's degrees from the University of Pittsburgh and experience at DraftKings, I specialize in translating complex AI technologies into intuitive, valuable user experiences.
             </p>
             <p className="text-default-600 mb-8 text-lg">
-              Currently leading AI product initiatives at TechCorp, where I've launched three successful AI-powered features that have increased user engagement by 45% and reduced customer support inquiries by 30%.
+              My expertise spans the entire AI product lifecycle, from conducting user research and defining product strategy to implementing responsible AI practices that ensure both innovation and ethical deployment.
             </p>
             
             <h3 className="text-xl font-semibold mb-4">Skills & Expertise</h3>
@@ -71,7 +70,7 @@ export function AboutSection() {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">My Philosophy</h3>
                     <p className="text-default-600">
-                      I believe in building products that solve real problems through a deep understanding of user needs, technical possibilities, and business goals. Great products emerge at the intersection of desirability, feasibility, and viability.
+                      I believe AI should amplify human capability, not replace it. Great AI products emerge when we deeply understand user needs, respect ethical boundaries, and leverage technology to solve meaningful problems that make people's lives better.
                     </p>
                   </div>
                 </div>
