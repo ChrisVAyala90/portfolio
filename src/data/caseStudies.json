@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "AI-Powered Content Recommendation Engine",
-    "description": "Designed and implemented a personalized content recommendation system that increased user engagement by 32% and session duration by 45%.",
+    "title": "DraftKings AI Platform Features",
+    "description": "Currently building AI-powered features for DraftKings' platform, focusing on responsible gaming and personalized user experiences while maintaining regulatory compliance.",
     "image": "https://img.heroui.chat/image/ai?w=600&h=400&u=ai1",
-    "tags": ["Machine Learning", "Personalization", "User Engagement"],
+    "tags": ["LLM Applications", "Responsible AI", "Product Strategy"],
     "link": "#"
   },
   {
     "id": 2,
-    "title": "Predictive Customer Support System",
-    "description": "Led the development of an AI system that predicts customer issues before they occur, reducing support tickets by 28% and improving customer satisfaction scores.",
+    "title": "Enterprise Platform Research Framework",
+    "description": "Designed comprehensive research methodologies including max-diff and TURF analysis to drive product roadmap decisions across multiple business verticals.",
     "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=dash1",
-    "tags": ["Predictive Analytics", "Customer Experience", "NLP"],
+    "tags": ["Mixed-Methods Research", "Product Analytics", "Strategic Insights"],
     "link": "#"
   },
   {
     "id": 3,
-    "title": "B2B SaaS Platform Redesign",
-    "description": "Completely redesigned the user experience of a B2B platform with 50,000+ users, resulting in a 40% increase in feature adoption and 25% reduction in onboarding time.",
+    "title": "U.S. Bank Digital Experience Optimization",
+    "description": "Led UX research initiatives that improved customer digital banking experiences, focusing on measurable ROI and cross-functional collaboration with product and engineering teams.",
     "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=dash2",
-    "tags": ["UX Design", "B2B", "User Research"],
+    "tags": ["UX Research", "Financial Services", "Data-Driven Design"],
     "link": "#"
   }
 ]
