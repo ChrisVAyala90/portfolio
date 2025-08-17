@@ -21,9 +21,12 @@ export function AboutSection() {
             <div className="sticky top-24">
               <div className="aspect-square rounded-xl overflow-hidden mb-6">
                 <img 
-                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=ChrisAyala&backgroundColor=b6e3f4&skin=light" 
+                  src="/images/christopher-ayala-profile.jpg" 
                   alt="Christopher Ayala" 
                   className="w-full h-full object-cover bg-default-100"
+                  onError={(e) => {
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop&facepad=3&faces=1";
+                  }}
                 />
               </div>
               <div className="flex gap-4 justify-center">
