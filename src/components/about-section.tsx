@@ -19,15 +19,11 @@ export function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="md:col-span-1">
             <div className="sticky top-24">
-              <div className="aspect-square rounded-xl overflow-hidden mb-6 bg-default-100">
-                <div 
-                  className="w-full h-full bg-cover bg-center"
-                  style={{
-                    backgroundImage: `url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop')`,
-                    backgroundPosition: 'center 20%'
-                  }}
-                  role="img"
-                  aria-label="Christopher Ayala"
+              <div className="aspect-square rounded-xl overflow-hidden mb-6">
+                <img 
+                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=ChrisAyala&backgroundColor=b6e3f4&skin=light" 
+                  alt="Christopher Ayala" 
+                  className="w-full h-full object-cover bg-default-100"
                 />
               </div>
               <div className="flex gap-4 justify-center">
