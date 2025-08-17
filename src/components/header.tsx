@@ -30,7 +30,7 @@ export function Header() {
           <Button 
             as={Link} 
             color="primary" 
-            href="mailto:christopher.ayala@example.com" 
+            href="mailto:chris.ayala12@gmail.com" 
             variant="flat"
             endContent={<Icon icon="lucide:mail" />}
           >

@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "DraftKings AI Platform Features",
-    "description": "Currently building AI-powered features for DraftKings' platform, focusing on responsible gaming and personalized user experiences while maintaining regulatory compliance.",
-    "image": "https://img.heroui.chat/image/ai?w=600&h=400&u=ai1",
-    "tags": ["LLM Applications", "Responsible AI", "Product Strategy"],
+    "title": "Responsible Gaming Feature Development",
+    "description": "Spearheaded multi-phase research project resulting in features that allow players to monitor activity and view behavior stats over time. Increased responsible gaming center visits by 20% and boosted awareness of responsible gaming tools.",
+    "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=gaming1",
+    "tags": ["User Research", "Responsible Gaming", "Feature Development"],
     "link": "#"
   },
   {
     "id": 2,
-    "title": "Enterprise Platform Research Framework",
-    "description": "Designed comprehensive research methodologies including max-diff and TURF analysis to drive product roadmap decisions across multiple business verticals.",
-    "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=dash1",
-    "tags": ["Mixed-Methods Research", "Product Analytics", "Strategic Insights"],
+    "title": "Enterprise Product Experience Optimization",
+    "description": "Led bi-annual MaxDiff product experience surveys at DraftKings, translating complex data into actionable insights that informed vertical-wide product roadmap. Presented findings to senior leadership to prioritize areas of focus.",
+    "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=analytics1",
+    "tags": ["MaxDiff Analysis", "Product Strategy", "Data Analytics"],
     "link": "#"
   },
   {
     "id": 3,
-    "title": "U.S. Bank Digital Experience Optimization",
-    "description": "Led UX research initiatives that improved customer digital banking experiences, focusing on measurable ROI and cross-functional collaboration with product and engineering teams.",
-    "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=dash2",
-    "tags": ["UX Research", "Financial Services", "Data-Driven Design"],
+    "title": "Wellness Center Digital Transformation",
+    "description": "Revamped wellness center website using seven research methods during freelance work, resulting in a 46%+ increase in patient bookings through evidence-driven design improvements.",
+    "image": "https://img.heroui.chat/image/dashboard?w=600&h=400&u=wellness1",
+    "tags": ["UX Design", "User Research", "Conversion Optimization"],
     "link": "#"
   }
 ]

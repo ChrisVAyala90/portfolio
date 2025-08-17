@@ -1,0 +1,67 @@
+{
+  "experience": [
+    {
+      "company": "DraftKings",
+      "position": "Senior Product Researcher",
+      "period": "Jul 2022 – Present",
+      "location": "Boston, MA",
+      "description": "Leading UX research initiatives across enterprise product design for key areas including registrations, deposits, account management, loyalty, and responsible gaming.",
+      "achievements": [
+        "Led bi-annual MaxDiff product experience surveys, translating complex data into actionable insights that informed a vertical-wide product roadmap",
+        "Spearheaded multi-phase responsible gaming research, resulting in features that increased responsible gaming center visits by 20%",
+        "Delivered industry-leading enterprise product design through scalable user feedback integration and rigorous testing",
+        "Developed a Design System Management Tool using PHP, MySQL, CSS, and HTML with REST APIs"
+      ]
+    },
+    {
+      "company": "U.S. Bank",
+      "position": "Product (UX) Researcher, Assistant Vice President (AVP)",
+      "period": "Dec 2021 – Aug 2022",
+      "location": "Minneapolis, MN",
+      "description": "Conducted research to establish benchmarks for continuous product design software and ensure ADA compliance.",
+      "achievements": [
+        "Recognized by senior management for establishing benchmark research framework for continuous product design software",
+        "Led accessibility research for mortgage loan payoff quote request feature, ensuring ADA compliance and universal access",
+        "Chosen to lead dissemination of research methodologies among fellow researchers"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "UX Designer & Researcher",
+      "period": "Jan 2021 – Aug 2021",
+      "location": "Minneapolis, MN",
+      "description": "Provided comprehensive UX design and research services for multiple clients, driving measurable business outcomes.",
+      "achievements": [
+        "Enhanced large arena website serving 20,000+ monthly customers using 14 user-centered approaches with 90+ participants",
+        "Led end-to-end UX operations for charity's mobile-first website, utilizing 11 research methods with 30+ respondents",
+        "Revamped wellness center site using 7 research methods, resulting in 46%+ increase in patient bookings"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Boston University",
+      "degree": "Master of Science in Software Development",
+      "period": "Jul 2023 - Jan 2025",
+      "gpa": "3.69",
+      "coursework": ["Data Structures & Algorithms", "Artificial Intelligence", "Web & Server Side Development", "Software Patterns"]
+    },
+    {
+      "institution": "DePaul University",
+      "degree": "Master of Science with Distinction in Human Computer Interaction",
+      "period": "Jul 2020 - Dec 2021",
+      "gpa": "3.93",
+      "coursework": ["Scripting Interactive Systems", "Prototyping & Implementation", "Information Science", "Statistics & Data Analysis"]
+    },
+    {
+      "institution": "University of St. Thomas",
+      "degree": "Bachelor of Art in Sociology",
+      "period": "Sep 2013 - Dec 2015"
+    }
+  ],
+  "skills": {
+    "programmingLanguages": ["Python", "Java", "JavaScript", "TypeScript", "HTML", "CSS", "C/C++", "R", "PHP", "JSX"],
+    "librariesFrameworks": ["React", "Node.js", "Tailwind CSS", "Bootstrap", "jQuery", "JSON", "MySQL", "Framer"],
+    "tools": ["Figma", "GitHub", "Visual Studio Code", "PyCharm", "IntelliJ IDEA", "Replit", "Postman", "phpMyAdmin", "Dovetail", "UserTesting", "Quantum Metric", "Alchemer", "WCAG", "REST APIs"]
+  }
+}

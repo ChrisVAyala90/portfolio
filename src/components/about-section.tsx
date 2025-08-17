@@ -3,14 +3,14 @@ import { Card, CardBody, Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 const skills = [
-  { name: "LLM Applications", icon: "lucide:brain" },
-  { name: "Product Strategy", icon: "lucide:strategy" },
+  { name: "Python", icon: "logos:python" },
+  { name: "JavaScript", icon: "logos:javascript" },
+  { name: "TypeScript", icon: "logos:typescript-icon" },
+  { name: "React", icon: "logos:react" },
   { name: "User Research", icon: "lucide:users" },
   { name: "Data Analysis", icon: "lucide:bar-chart-2" },
-  { name: "Mixed-Methods Research", icon: "lucide:search" },
-  { name: "Responsible AI", icon: "lucide:shield-check" },
-  { name: "Python", icon: "logos:python" },
-  { name: "SQL", icon: "lucide:database" },
+  { name: "AI/ML", icon: "lucide:brain" },
+  { name: "Product Strategy", icon: "lucide:strategy" },
 ];
 export function AboutSection() {
   return (
@@ -27,14 +27,11 @@ export function AboutSection() {
                 />
               </div>
               <div className="flex gap-4 justify-center">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/chrisvayala" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Icon icon="logos:linkedin-icon" className="w-6 h-6" />
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/ChrisVAyala90" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Icon icon="logos:github-icon" className="w-6 h-6" />
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <Icon icon="logos:twitter" className="w-6 h-6" />
                 </a>
               </div>
             </div>
@@ -43,10 +40,10 @@ export function AboutSection() {
             <h1 className="text-4xl font-bold mb-4">Christopher Ayala</h1>
             <h2 className="text-2xl text-primary mb-6">AI Product Engineer</h2>
             <p className="text-default-600 mb-8 text-lg">
-              I'm an AI Product Engineer with a passion for building intelligent systems that amplify human capability. With dual Master's degrees from the University of Pittsburgh and experience at DraftKings, I specialize in translating complex AI technologies into intuitive, valuable user experiences.
+              I'm a Senior Product Researcher at DraftKings with a unique blend of technical expertise and human-centered research background. Currently pursuing my MS in Software Development at Boston University (graduating Jan 2025), I also hold an MS in Human-Computer Interaction from DePaul University.
             </p>
             <p className="text-default-600 mb-8 text-lg">
-              My expertise spans the entire AI product lifecycle, from conducting user research and defining product strategy to implementing responsible AI practices that ensure both innovation and ethical deployment.
+              My expertise spans the entire product lifecycle, from conducting rigorous user research and defining product strategy to developing AI-powered features and implementing responsible gaming initiatives that have increased user engagement by 20%.
             </p>
             
             <h3 className="text-xl font-semibold mb-4">Skills & Expertise</h3>
