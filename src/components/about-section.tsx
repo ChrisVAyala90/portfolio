@@ -4,7 +4,7 @@ import { Card, CardBody, Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 const skills = [
-  { name: "Product Strategy", icon: "lucide:strategy" },
+  { name: "Product Strategy", icon: "lucide:target" },
   { name: "AI/ML Engineering", icon: "lucide:brain" },
   { name: "User Research", icon: "lucide:users" },
   { name: "Python", icon: "logos:python" },
