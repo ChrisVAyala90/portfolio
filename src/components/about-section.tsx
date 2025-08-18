@@ -4,14 +4,14 @@ import { Card, CardBody, Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 const skills = [
-  { name: "Python", icon: "logos:python" },
-  { name: "JavaScript", icon: "logos:javascript" },
-  { name: "TypeScript", icon: "logos:typescript-icon" },
-  { name: "React", icon: "logos:react" },
-  { name: "User Research", icon: "lucide:users" },
-  { name: "Data Analysis", icon: "lucide:bar-chart-2" },
-  { name: "AI/ML", icon: "lucide:brain" },
   { name: "Product Strategy", icon: "lucide:strategy" },
+  { name: "AI/ML Engineering", icon: "lucide:brain" },
+  { name: "User Research", icon: "lucide:users" },
+  { name: "Python", icon: "logos:python" },
+  { name: "Mixed Methods Analytics", icon: "lucide:bar-chart-2" },
+  { name: "Full-Stack Development", icon: "lucide:code-2" },
+  { name: "Prompt Engineering", icon: "lucide:wand-2" },
+  { name: "0→1 Product Development", icon: "lucide:rocket" },
 ];
 export function AboutSection() {
   return (
