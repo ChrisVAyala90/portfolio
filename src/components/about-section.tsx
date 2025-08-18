@@ -42,10 +42,10 @@ export function AboutSection() {
             <h1 className="text-4xl font-bold mb-4">Christopher Ayala</h1>
             <h2 className="text-2xl text-primary mb-6">AI Product Engineer</h2>
             <p className="text-default-600 mb-8 text-lg">
-              I'm a Senior Product Researcher at DraftKings with a unique blend of technical expertise and human-centered research background. Currently pursuing my MS in Software Development at Boston University (graduating Jan 2025), I also hold an MS in Human-Computer Interaction from DePaul University.
+              I'm a multidisciplinary technologist with a background spanning software engineering, UX research, and product management. I specialize in creating AI-powered tools that solve real-world problems in intuitive ways, blending deep customer empathy with strong technical execution.
             </p>
             <p className="text-default-600 mb-8 text-lg">
-              My expertise spans the entire product lifecycle, from conducting rigorous user research and defining product strategy to developing AI-powered features and implementing responsible gaming initiatives that have increased user engagement by 20%.
+              I hold dual Master's degrees - one in Human-Computer Interaction from DePaul University (with distinction) and another in Software Development from Boston University. This unique combination allows me to navigate complex product challenges by understanding both the human and technical dimensions of innovation.
             </p>
             
             <h3 className="text-xl font-semibold mb-4">Skills & Expertise</h3>
