@@ -6,66 +6,66 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Running the Application
 ```bash
-npm run dev        # Start development server with hot module replacement (HMR)
-npm run preview    # Preview production build locally
+npm install        # Install dependencies
+npm run dev        # Start development server at http://localhost:5173 with HMR
+npm run preview    # Preview production build locally after building
 ```
 
-### Building
+### Building and Code Quality
 ```bash
-npm run build      # TypeScript compilation + Vite production build
-```
-
-### Code Quality
-```bash
-npm run lint       # Run ESLint on TypeScript/TSX files
+npm run build      # Vite production build with TypeScript compilation
+npm run lint       # ESLint for .ts/.tsx files (max-warnings: 0)
 ```
 
 ## Architecture Overview
 
+This is Christopher Ayala's portfolio website built with React, TypeScript, and HeroUI components. The application showcases professional experience through About, Resume, and Case Studies sections.
+
 ### Tech Stack
-- **React 18.3.1** with TypeScript for the frontend framework
-- **Vite 6.0** as the build tool and development server
-- **HeroUI 2.8.2** as the primary component library
-- **Tailwind CSS 4.1.11** for utility-first styling
+- **React 18.3.1** with TypeScript 5.7.3
+- **Vite 6.0** build tool with custom Babel plugin for development debugging
+- **HeroUI 2.8.2** component library (with CDN scripts for chat functionality)
+- **Tailwind CSS 4.1.11** with HeroUI plugin integration
 - **Framer Motion 11.18.2** for animations
 
 ### Project Structure
-The application is a portfolio website with the following component organization:
 
 ```
-src/components/
-├── header.tsx               # Navigation header
-├── hero-section.tsx         # Landing hero section
-├── about-section.tsx        # About information
-├── features-section.tsx     # Features showcase
-├── case-studies-section.tsx # Portfolio case studies
-├── resume-section.tsx       # Resume/CV section
-├── testimonials-section.tsx # Client testimonials
-├── pricing-section.tsx      # Service pricing
-└── cta-section.tsx         # Call-to-action section
+src/
+├── main.tsx              # Entry point - wraps app in HeroUIProvider & ToastProvider
+├── App.tsx               # Main app component - renders page sections
+├── index.css             # Global styles and Tailwind directives
+└── components/
+    ├── header.tsx        # Navigation header
+    ├── about-section.tsx # Personal introduction
+    ├── resume-section.tsx # Professional experience
+    └── case-studies-section.tsx # Project showcases
 ```
 
-### Key Architectural Decisions
+### Key Implementation Details
 
-1. **Component Architecture**: All components are functional React components using hooks, located in `src/components/`.
+1. **HeroUI Integration**: 
+   - Root provider wrapping in `src/main.tsx`
+   - CDN scripts loaded in `index.html` for chat functionality
+   - Components use HeroUI's design system
 
-2. **Styling Strategy**: Uses Tailwind CSS utility classes with HeroUI components. The Tailwind config includes HeroUI plugin for consistent theming.
+2. **Styling Configuration**:
+   - Tailwind CSS with HeroUI theme plugin
+   - Dark mode support enabled (`darkMode: "class"`)
+   - Component classes follow HeroUI conventions
 
-3. **Build Pipeline**: Vite handles both development and production builds with custom plugins:
-   - `vite-plugin-inject-data-locator` - Injects data attributes for development debugging
-   - React plugin for JSX transformation
-   - Tailwind CSS plugin for style processing
+3. **Build & Development**:
+   - Custom Vite plugin (`vite-plugin-inject-data-locator`) for dev debugging
+   - TypeScript strict mode disabled in `tsconfig.json`
+   - ES modules throughout the codebase
+   - Netlify deployment configured with proper headers and redirects
 
-4. **TypeScript Configuration**: 
-   - Main config targets ES2020 with React JSX
-   - Strict mode is disabled (`"strict": false`)
-   - Separate config for Node.js build tools
+4. **Component Patterns**:
+   - Named exports for all components
+   - Functional components with TypeScript
+   - Components accept standard React props
 
-5. **External Dependencies**: The application loads HeroUI chat scripts from CDN in the HTML file.
-
-### Development Considerations
-
-- **No Testing Framework**: Currently no test infrastructure is set up. Consider adding Vitest or Jest if testing is required.
-- **Data Locator Plugin**: Custom Babel/Vite plugins inject data-locator attributes into JSX elements for debugging purposes during development.
-- **Module System**: Project uses ES modules (`"type": "module"` in package.json).
-- **HeroUI Integration**: The app relies heavily on HeroUI components which provide built-in toast notifications and theme support.
+5. **Deployment**:
+   - Netlify deployment via `netlify.toml`
+   - Build output to `dist/` directory
+   - Client-side routing with catch-all redirect

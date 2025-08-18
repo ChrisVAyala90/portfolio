@@ -67,9 +67,9 @@ export function AboutSection() {
                 <div className="flex gap-4 items-start">
                   <Icon icon="lucide:lightbulb" className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">My Philosophy</h3>
+                    <h3 className="text-lg font-semibold mb-2">My Ethos</h3>
                     <p className="text-default-600">
-                      I believe AI should amplify human capability, not replace it. Great AI products emerge when we deeply understand user needs, respect ethical boundaries, and leverage technology to solve meaningful problems that make people's lives better.
+                      I believe in building technology that serves real people with real problems. As a multidisciplinary technologist, I approach challenges with relentless curiosity and pragmatic execution - researching deeply but moving decisively. My work is rooted in creating products people genuinely love, bringing teams along for the journey, and refusing to let innovation be bottlenecked by fear or convention. I measure success not just in metrics, but in the energy and opportunity created for others.
                     </p>
                   </div>
                 </div>
