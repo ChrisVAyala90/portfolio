@@ -4,18 +4,22 @@ import { Card, CardBody, Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 const skills = [
+  { name: "AI Product Engineering", icon: "lucide:brain" },
+  { name: "LLM Integration", icon: "lucide:zap" },
   { name: "Product Strategy", icon: "lucide:target" },
-  { name: "AI/ML Engineering", icon: "lucide:brain" },
-  { name: "User Research", icon: "lucide:users" },
   { name: "Python", icon: "logos:python" },
-  { name: "Mixed Methods Analytics", icon: "lucide:bar-chart-2" },
+  { name: "System Design", icon: "lucide:network" },
+  { name: "User Research", icon: "lucide:users" },
   { name: "Full-Stack Development", icon: "lucide:code-2" },
+  { name: "AI Operations", icon: "lucide:settings" },
+  { name: "UX Design", icon: "lucide:palette" },
   { name: "Prompt Engineering", icon: "lucide:wand-2" },
+  { name: "Mixed Methods Analytics", icon: "lucide:bar-chart-2" },
   { name: "0→1 Product Development", icon: "lucide:rocket" },
 ];
 export function AboutSection() {
   return (
-    <section id="about" className="px-4 py-20">
+    <section id="about" className="px-4 py-20 bg-background dark:bg-default-100">
       <div className="container mx-auto max-w-5xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="md:col-span-1">
@@ -29,10 +33,10 @@ export function AboutSection() {
                 />
               </div>
               <div className="flex gap-4 justify-center">
-                <a href="https://www.linkedin.com/in/chrisvayala" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/chrisvayala" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:scale-110 transition-transform duration-200">
                   <Icon icon="logos:linkedin-icon" className="w-6 h-6" />
                 </a>
-                <a href="https://github.com/ChrisVAyala90" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/ChrisVAyala90" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:scale-110 transition-transform duration-200">
                   <Icon icon="logos:github-icon" className="w-6 h-6" />
                 </a>
               </div>
@@ -40,7 +44,7 @@ export function AboutSection() {
           </div>
           <div className="md:col-span-2">
             <h1 className="text-4xl font-bold mb-4">Christopher Ayala</h1>
-            <h2 className="text-2xl text-primary mb-6">AI Product Engineer</h2>
+            <h2 className="text-2xl text-primary dark:text-primary-400 mb-6">AI Product Engineer</h2>
             <p className="text-default-600 mb-8 text-lg">
               I'm a multidisciplinary technologist with a background spanning software engineering, UX research, and product management. I specialize in creating AI-powered tools that solve real-world problems in intuitive ways, blending deep customer empathy with strong technical execution.
             </p>
@@ -62,14 +66,14 @@ export function AboutSection() {
               ))}
             </div>
             
-            <Card className="bg-primary-50">
+            <Card className="bg-primary-50 dark:bg-default-200">
               <CardBody className="p-6">
                 <div className="flex gap-4 items-start">
                   <Icon icon="lucide:lightbulb" className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">My Ethos</h3>
+                    <h3 className="text-lg font-semibold mb-2">My Philosophy</h3>
                     <p className="text-default-600">
-                      I believe in building technology that serves real people with real problems. As a multidisciplinary technologist, I approach challenges with relentless curiosity and pragmatic execution - researching deeply but moving decisively. My work is rooted in creating products people genuinely love, bringing teams along for the journey, and refusing to let innovation be bottlenecked by fear or convention. I measure success not just in metrics, but in the energy and opportunity created for others.
+                      I believe in building technology that serves real people with real problems. I approach challenges with relentless curiosity and pragmatic execution - researching deeply but moving decisively. My work is rooted in creating products people genuinely love, bringing teams along for the journey, and refusing to let innovation be bottlenecked by fear or convention. I measure success not just in metrics, but in the energy and opportunity created for others.
                     </p>
                   </div>
                 </div>

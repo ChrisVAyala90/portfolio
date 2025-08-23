@@ -8,7 +8,8 @@ import {TestimonialsSection} from "./components/testimonials-section";
 import {Header} from "./components/header";
 import {AboutSection} from "./components/about-section";
 import {ResumeSection} from "./components/resume-section";
-import {CaseStudiesSection} from "./components/case-studies-section";
+import {TechnicalProjectsSection} from "./components/technical-projects-section";
+import {SelectedWorkSection} from "./components/selected-work-section";
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
       <Header />
       <AboutSection />
       <ResumeSection />
-      <CaseStudiesSection />
+      <TechnicalProjectsSection />
     </main>
   );
 }

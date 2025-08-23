@@ -1,11 +1,11 @@
 import React from "react";
-import { Card, CardBody, Divider } from "@heroui/react";
+import { Card, CardBody, Divider, Button } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import resumeData from "../data/resume.json";
 
 export function ResumeSection() {
   return (
-    <section id="resume" className="px-4 py-20 bg-default-50">
+    <section id="resume" className="px-4 py-20 bg-default-50 dark:bg-default-100">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl font-bold mb-12 text-center">Professional Experience</h2>
         
@@ -17,7 +17,7 @@ export function ResumeSection() {
           
           <div className="space-y-6">
             {resumeData.experience.map((job, index) => (
-              <Card key={index} className="bg-background">
+              <Card key={index} className="bg-background dark:bg-default-50">
                 <CardBody className="p-6">
                   <div className="flex flex-col md:flex-row md:items-start justify-between mb-4">
                     <div>
@@ -37,6 +37,22 @@ export function ResumeSection() {
               </Card>
             ))}
           </div>
+          
+          <div className="text-center mt-8">
+            <Button
+              as="a"
+              href="/ChrisVAyalaResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              color="primary"
+              variant="flat"
+              size="lg"
+              startContent={<Icon icon="lucide:download" />}
+              className="hover:scale-105 transition-transform duration-200"
+            >
+              Download Full Resume
+            </Button>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -47,7 +63,7 @@ export function ResumeSection() {
             </h3>
             <div className="space-y-4">
               {resumeData.education.map((edu, index) => (
-                <Card key={index} className="bg-background">
+                <Card key={index} className="bg-background dark:bg-default-50">
                   <CardBody className="p-6">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
                       <div className="flex-1">
@@ -73,15 +89,15 @@ export function ResumeSection() {
               <Icon icon="lucide:code-2" className="mr-2 text-primary" />
               Technical Skills
             </h3>
-            <Card className="bg-background">
+            <Card className="bg-background dark:bg-default-50">
               <CardBody className="p-6">
                 <div className="space-y-4">
                   <div>
-                    <h5 className="font-medium text-sm text-default-700 mb-2">Languages</h5>
+                    <h5 className="font-medium text-sm text-default-700 mb-2">AI Product Engineering</h5>
                     <div className="flex flex-wrap gap-2">
-                      {resumeData.skills.programmingLanguages.map((lang, index) => (
+                      {resumeData.skills.aiProductEngineering.map((skill, index) => (
                         <span key={index} className="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">
-                          {lang}
+                          {skill}
                         </span>
                       ))}
                     </div>
@@ -90,11 +106,11 @@ export function ResumeSection() {
                   <Divider />
                   
                   <div>
-                    <h5 className="font-medium text-sm text-default-700 mb-2">Frameworks</h5>
+                    <h5 className="font-medium text-sm text-default-700 mb-2">Development & Infrastructure</h5>
                     <div className="flex flex-wrap gap-2">
-                      {resumeData.skills.librariesFrameworks.map((framework, index) => (
+                      {resumeData.skills.developmentInfrastructure.map((skill, index) => (
                         <span key={index} className="px-2 py-1 bg-secondary-100 text-secondary-700 rounded text-sm">
-                          {framework}
+                          {skill}
                         </span>
                       ))}
                     </div>
@@ -103,11 +119,24 @@ export function ResumeSection() {
                   <Divider />
                   
                   <div>
-                    <h5 className="font-medium text-sm text-default-700 mb-2">Tools</h5>
+                    <h5 className="font-medium text-sm text-default-700 mb-2">Product Strategy</h5>
                     <div className="flex flex-wrap gap-2">
-                      {resumeData.skills.tools.slice(0, 8).map((tool, index) => (
-                        <span key={index} className="px-2 py-1 bg-default-200 text-default-700 rounded text-sm">
-                          {tool}
+                      {resumeData.skills.productStrategy.map((skill, index) => (
+                        <span key={index} className="px-2 py-1 bg-success-100 text-success-700 rounded text-sm">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <Divider />
+                  
+                  <div>
+                    <h5 className="font-medium text-sm text-default-700 mb-2">UX Research & Design</h5>
+                    <div className="flex flex-wrap gap-2">
+                      {resumeData.skills.uxResearchDesign.map((skill, index) => (
+                        <span key={index} className="px-2 py-1 bg-warning-100 text-warning-700 rounded text-sm">
+                          {skill}
                         </span>
                       ))}
                     </div>

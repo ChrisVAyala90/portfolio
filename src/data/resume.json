@@ -2,10 +2,23 @@
   "experience": [
     {
       "company": "DraftKings",
+      "position": "AI Engineer, Platform",
+      "period": "Aug 2025 – Present",
+      "location": "Minneapolis, MN (Remote)",
+      "description": "Leading AI platform initiatives and agentic solution development, translating business problems into scalable AI-powered products while driving enterprise AI adoption.",
+      "achievements": [
+        "Partner with product and cross-functional stakeholders to design system architectures and orchestration strategies for LLM-powered solutions",
+        "Scale AI adoption through shared patterns, SDKs, and evaluators while prototyping AI Ops & Platform capabilities",
+        "Implement production-ready CI/CD, testing, and observability systems for LLM platforms (latency, cost, quality, safety)",
+        "Drive adoption and change management through workshops, documentation, and cross-functional collaboration with Security, Privacy, and Compliance teams"
+      ]
+    },
+    {
+      "company": "DraftKings",
       "position": "Senior Product Researcher",
-      "period": "Jul 2022 – Present",
+      "period": "Jul 2022 – Jul 2025",
       "location": "Boston, MA",
-      "description": "Leading UX research initiatives across enterprise product design for key areas including registrations, deposits, account management, loyalty, and responsible gaming.",
+      "description": "Led UX research initiatives across enterprise product design for key areas including registrations, deposits, account management, loyalty, and responsible gaming.",
       "achievements": [
         "Led bi-annual MaxDiff product experience surveys, translating complex data into actionable insights that informed a vertical-wide product roadmap",
         "Spearheaded multi-phase responsible gaming research, resulting in features that increased responsible gaming center visits by 20%",
@@ -60,8 +73,9 @@
     }
   ],
   "skills": {
-    "programmingLanguages": ["Python", "Java", "JavaScript", "TypeScript", "HTML", "CSS", "C/C++", "R", "PHP", "JSX"],
-    "librariesFrameworks": ["React", "Node.js", "Tailwind CSS", "Bootstrap", "jQuery", "JSON", "MySQL", "Framer"],
-    "tools": ["Figma", "GitHub", "Visual Studio Code", "PyCharm", "IntelliJ IDEA", "Replit", "Postman", "phpMyAdmin", "Dovetail", "UserTesting", "Quantum Metric", "Alchemer", "WCAG", "REST APIs"]
+    "aiProductEngineering": ["OpenAI", "Anthropic Claude", "Google Gemini", "AWS Bedrock", "n8n", "Langchain", "Prompt Engineering", "RAG Pipelines"],
+    "developmentInfrastructure": ["Python", "TypeScript", "JavaScript", "SQL", "JSON", "REST APIs", "Claude Code", "Cursor", "FastAPI", "Docker"],
+    "productStrategy": ["MaxDiff/TURF", "Product Analytics", "A/B Testing", "0→1 Development", "System Design", "SDK Design"],
+    "uxResearchDesign": ["Mixed-Methods UX", "User Testing", "Behavioral Analytics", "Figma", "User-Centered AI Design"]
   }
 }

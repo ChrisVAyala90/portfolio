@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "title": "Multi-model LLM Aggregator",
+      "description": "Prototype router that fuses responses from OpenAI, Claude, and Gemini, early exploration of model-gateways, Langchain, and token management.",
+      "keyLearning": "Model routing strategies and token optimization",
+      "techStack": ["OpenAI", "Claude", "Gemini", "Langchain", "Python"],
+      "githubUrl": "https://github.com/ChrisVAyala90",
+      "category": "AI/ML"
+    },
+    {
+      "title": "NLP Hockey Scout – Sentiment Analyzer",
+      "description": "Sports-specific sentiment pipeline using Hugging Face SportsBERT with 100% test coverage documenting model swap gains.",
+      "keyLearning": "Domain-specific NLP and comprehensive testing practices",
+      "techStack": ["Hugging Face", "SportsBERT", "Python", "NLP"],
+      "githubUrl": "https://github.com/ChrisVAyala90",
+      "category": "AI/ML"
+    },
+    {
+      "title": "Reinforcement Learning Tic-Tac-Toe",
+      "description": "Containerized FastAPI service hosting a Q-learning agent with lightweight React UI, demonstrating end-to-end model deployment.",
+      "keyLearning": "RL implementation and containerized ML deployment",
+      "techStack": ["FastAPI", "React", "Q-Learning", "Docker", "Python"],
+      "githubUrl": "https://github.com/ChrisVAyala90",
+      "category": "AI/ML"
+    },
+    {
+      "title": "DraftKings Design System Management Tool",
+      "description": "Role-based PHP + MySQL application that CRUDs design tokens via JSON/XML REST endpoints, boosting hand-off clarity for engineers.",
+      "keyLearning": "Design systems automation and API development",
+      "techStack": ["PHP", "MySQL", "REST APIs", "JSON", "XML"],
+      "githubUrl": "https://github.com/ChrisVAyala90",
+      "category": "Full-Stack"
+    }
+  ]
+}
