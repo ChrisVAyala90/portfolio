@@ -9,21 +9,21 @@ export function Header() {
   return (
     <Navbar maxWidth="xl" className="bg-background/70 backdrop-blur-md">
       <NavbarBrand>
-        <p className="font-bold text-inherit text-xl">Christopher Ayala</p>
+        <p className="font-bold text-foreground text-xl">Christopher Ayala</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#about" className="text-medium hover:scale-105 transition-transform duration-200">
+          <Link href="#about" className="text-medium text-foreground-600 hover:text-foreground hover:scale-105 transition-all duration-200">
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#resume" className="text-medium hover:scale-105 transition-transform duration-200">
+          <Link href="#resume" className="text-medium text-foreground-600 hover:text-foreground hover:scale-105 transition-all duration-200">
             Resume
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#technical-projects" className="text-medium hover:scale-105 transition-transform duration-200">
+          <Link href="#technical-projects" className="text-medium text-foreground-600 hover:text-foreground hover:scale-105 transition-all duration-200">
             Projects
           </Link>
         </NavbarItem>
@@ -35,7 +35,7 @@ export function Header() {
             variant="light"
             onPress={toggleTheme}
             aria-label="Toggle dark mode"
-            className="hover:scale-110 transition-transform duration-200"
+            className="text-foreground-500 hover:text-foreground hover:scale-110 transition-all duration-200"
           >
             <Icon 
               icon={isDark ? "lucide:sun" : "lucide:moon"} 

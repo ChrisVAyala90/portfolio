@@ -7,11 +7,11 @@ export function ResumeSection() {
   return (
     <section id="resume" className="px-4 py-20 bg-default-50 dark:bg-default-100">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl font-bold mb-12 text-center">Professional Experience</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center text-foreground">Professional Experience</h2>
         
         <div className="mb-16">
-          <h3 className="text-xl font-semibold mb-6 flex items-center">
-            <Icon icon="lucide:briefcase" className="mr-2 text-primary" />
+          <h3 className="text-xl font-semibold mb-6 flex items-center text-foreground">
+            <Icon icon="lucide:briefcase" className="mr-2 text-default-600 dark:text-default-400" />
             Work Experience
           </h3>
           
@@ -21,8 +21,8 @@ export function ResumeSection() {
                 <CardBody className="p-6">
                   <div className="flex flex-col md:flex-row md:items-start justify-between mb-4">
                     <div>
-                      <h4 className="text-lg font-semibold">{job.position}</h4>
-                      <p className="text-primary font-medium">{job.company}</p>
+                      <h4 className="text-lg font-semibold text-foreground">{job.position}</h4>
+                      <p className="text-foreground-600 font-medium">{job.company}</p>
                       <p className="text-default-500 text-sm">{job.location}</p>
                     </div>
                     <span className="text-default-500 mt-1 md:mt-0">{job.period}</span>
@@ -57,8 +57,8 @@ export function ResumeSection() {
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <h3 className="text-xl font-semibold mb-6 flex items-center">
-              <Icon icon="lucide:graduation-cap" className="mr-2 text-primary" />
+            <h3 className="text-xl font-semibold mb-6 flex items-center text-foreground">
+              <Icon icon="lucide:graduation-cap" className="mr-2 text-default-600 dark:text-default-400" />
               Education
             </h3>
             <div className="space-y-4">
@@ -67,7 +67,7 @@ export function ResumeSection() {
                   <CardBody className="p-6">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold">{edu.institution}</h4>
+                        <h4 className="text-lg font-semibold text-foreground">{edu.institution}</h4>
                         <p className="text-default-600">{edu.degree}</p>
                         {edu.gpa && <p className="text-default-500 text-sm">GPA: {edu.gpa}</p>}
                         {edu.coursework && (
@@ -85,8 +85,8 @@ export function ResumeSection() {
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold mb-6 flex items-center">
-              <Icon icon="lucide:code-2" className="mr-2 text-primary" />
+            <h3 className="text-xl font-semibold mb-6 flex items-center text-foreground">
+              <Icon icon="lucide:code-2" className="mr-2 text-default-600 dark:text-default-400" />
               Technical Skills
             </h3>
             <Card className="bg-background dark:bg-default-50">
