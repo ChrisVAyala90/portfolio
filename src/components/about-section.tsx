@@ -5,7 +5,7 @@ export function AboutSection() {
     <section id="about" className="px-6 pt-20 pb-24">
       <div className="max-w-3xl mx-auto">
         <p className="mono text-xs uppercase tracking-widest muted mb-6">
-          Christopher Ayala — Boston, MA
+          Christopher Ayala — Minneapolis, MN
         </p>
 
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05] mb-10" style={{ color: "var(--ink)" }}>
