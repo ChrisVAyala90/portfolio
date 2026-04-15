@@ -1,2 +1,80 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
+
+:root {
+  --paper: #FAFAF7;
+  --paper-2: #F2F1EC;
+  --ink: #111111;
+  --ink-2: #3A3A38;
+  --ink-3: #6B6B66;
+  --rule: #E5E3DC;
+}
+
+.dark {
+  --paper: #0B0B0B;
+  --paper-2: #141412;
+  --ink: #F2F1EC;
+  --ink-2: #C4C3BD;
+  --ink-3: #8A8984;
+  --rule: #23231F;
+}
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-feature-settings: "ss01", "cv11";
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-feature-settings: "zero", "ss01";
+  letter-spacing: 0;
+}
+
+.numeric {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.hairline {
+  border-color: var(--rule);
+}
+
+a.link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--ink-3);
+  transition: text-decoration-color 150ms ease;
+}
+a.link:hover {
+  text-decoration-color: var(--ink);
+}
+
+.muted { color: var(--ink-3); }
+.dim   { color: var(--ink-2); }

@@ -4,8 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Christopher Ayala - AI Product Engineer building responsible AI features at DraftKings. Combining deep customer empathy with technical execution." />
-    <title>Christopher Ayala - AI Product Engineer</title>
+    <meta name="description" content="Christopher Ayala — Senior Software Engineer on DraftKings' AI Platform Ops. I build AI products where the technical, user, and business decisions can't be separated." />
+    <title>Christopher Ayala</title>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (stored === "dark" || (!stored && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body class="h-full min-h-screen">
     <div id="root"></div>

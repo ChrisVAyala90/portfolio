@@ -2,80 +2,67 @@
   "experience": [
     {
       "company": "DraftKings",
-      "position": "AI Engineer, Platform",
-      "period": "Aug 2025 – Present",
-      "location": "Minneapolis, MN (Remote)",
-      "description": "Leading AI platform initiatives and agentic solution development, translating business problems into scalable AI-powered products while driving enterprise AI adoption.",
+      "position": "Senior Software Engineer, AI Platform Ops",
+      "period": "Aug 2025 — Present",
+      "location": "Boston, MA",
       "achievements": [
-        "Partner with product and cross-functional stakeholders to design system architectures and orchestration strategies for LLM-powered solutions",
-        "Scale AI adoption through shared patterns, SDKs, and evaluators while prototyping AI Ops & Platform capabilities",
-        "Implement production-ready CI/CD, testing, and observability systems for LLM platforms (latency, cost, quality, safety)",
-        "Drive adoption and change management through workshops, documentation, and cross-functional collaboration with Security, Privacy, and Compliance teams"
+        "Engineered and scaled an internal AI platform supporting 500+ production workflows, processing ~18K automated executions monthly (~1.13M lifetime) across product, regulatory compliance, and agent orchestration.",
+        "Accelerated delivery of 10 automation epics across 6 business units, resolving 100+ tickets with a 62% same-day resolution rate and turnaround 43% below team baseline.",
+        "Architected guardrail middleware for LLM content filtering and policy enforcement, achieving 100% uptime during a 437-participant AI hackathon via automated deactivation logic.",
+        "Streamlined internal AI/Automation onboarding by building a self-service provisioning layer (AWS Bedrock, LiteLLM), reducing setup time from days to minutes and enabling 4.6x growth in monthly throughput."
       ]
     },
     {
       "company": "DraftKings",
       "position": "Senior Product Researcher",
-      "period": "Jul 2022 – Jul 2025",
+      "period": "Jul 2022 — Aug 2025",
       "location": "Boston, MA",
-      "description": "Led UX research initiatives across enterprise product design for key areas including registrations, deposits, account management, loyalty, and responsible gaming.",
       "achievements": [
-        "Led bi-annual MaxDiff product experience surveys, translating complex data into actionable insights that informed a vertical-wide product roadmap",
-        "Spearheaded multi-phase responsible gaming research, resulting in features that increased responsible gaming center visits by 20%",
-        "Delivered industry-leading enterprise product design through scalable user feedback integration and rigorous testing",
-        "Developed a Design System Management Tool using PHP, MySQL, CSS, and HTML with REST APIs"
+        "Spearheaded research programs (MaxDiff, CSAT, mixed-methods) on platform health, deposits, and responsible gaming, with findings directly informing VP-level roadmap decisions.",
+        "Translated complex behavioral and risk insights to develop the \"My Stat Sheet\" feature, adopted by 13M+ users and achieving 30% engagement in year one.",
+        "Collaborated cross-functionally with Engineering, Design, and Product to ensure requirements traceability and evidence-based decision-making throughout the product lifecycle."
       ]
     },
     {
       "company": "U.S. Bank",
-      "position": "Product (UX) Researcher, Assistant Vice President (AVP)",
-      "period": "Dec 2021 – Aug 2022",
+      "position": "Product (UX) Researcher, AVP",
+      "period": "Dec 2021 — Aug 2022",
       "location": "Minneapolis, MN",
-      "description": "Conducted research to establish benchmarks for continuous product design software and ensure ADA compliance.",
       "achievements": [
-        "Recognized by senior management for establishing benchmark research framework for continuous product design software",
-        "Led accessibility research for mortgage loan payoff quote request feature, ensuring ADA compliance and universal access",
-        "Chosen to lead dissemination of research methodologies among fellow researchers"
+        "Built a continuous product intelligence workflow using session replays and quantified behavioral signals, accelerating decision-making for teams building customer-facing financial tools."
       ]
     },
     {
       "company": "Freelance",
-      "position": "UX Designer & Researcher",
-      "period": "Jan 2021 – Aug 2021",
+      "position": "UX Designer",
+      "period": "Jan 2021 — Aug 2021",
       "location": "Minneapolis, MN",
-      "description": "Provided comprehensive UX design and research services for multiple clients, driving measurable business outcomes.",
       "achievements": [
-        "Enhanced large arena website serving 20,000+ monthly customers using 14 user-centered approaches with 90+ participants",
-        "Led end-to-end UX operations for charity's mobile-first website, utilizing 11 research methods with 30+ respondents",
-        "Revamped wellness center site using 7 research methods, resulting in 46%+ increase in patient bookings"
+        "Architected a multi-system web infrastructure and redesigned the digital journey for a venue serving 20k+ monthly visitors, using multi-method research to optimize user flow.",
+        "Executed end-to-end product design for SMBs and non-profits, translating research into technical specs and flows that drove a 46% increase in patient bookings.",
+        "Directed the full delivery lifecycle across diverse client portfolios, ensuring rigorous technical feasibility and on-time implementation."
       ]
     }
   ],
   "education": [
     {
       "institution": "Boston University",
-      "degree": "Master of Science in Software Development",
-      "period": "Jul 2023 - Jan 2025",
+      "degree": "M.S. Software Development",
+      "period": "Jul 2023 — Jan 2025",
       "gpa": "3.69",
       "coursework": ["Data Structures & Algorithms", "Artificial Intelligence", "Web & Server Side Development", "Software Patterns"]
     },
     {
       "institution": "DePaul University",
-      "degree": "Master of Science with Distinction in Human Computer Interaction",
-      "period": "Jul 2020 - Dec 2021",
+      "degree": "M.S. Human-Computer Interaction, with Distinction",
+      "period": "Jul 2020 — Dec 2021",
       "gpa": "3.93",
       "coursework": ["Scripting Interactive Systems", "Prototyping & Implementation", "Information Science", "Statistics & Data Analysis"]
-    },
-    {
-      "institution": "University of St. Thomas",
-      "degree": "Bachelor of Art in Sociology",
-      "period": "Sep 2013 - Dec 2015"
     }
   ],
   "skills": {
-    "aiProductEngineering": ["OpenAI", "Anthropic Claude", "Google Gemini", "AWS Bedrock", "n8n", "Langchain", "Prompt Engineering", "RAG Pipelines"],
-    "developmentInfrastructure": ["Python", "TypeScript", "JavaScript", "SQL", "JSON", "REST APIs", "Claude Code", "Cursor", "FastAPI", "Docker"],
-    "productStrategy": ["MaxDiff/TURF", "Product Analytics", "A/B Testing", "0→1 Development", "System Design", "SDK Design"],
-    "uxResearchDesign": ["Mixed-Methods UX", "User Testing", "Behavioral Analytics", "Figma", "User-Centered AI Design"]
+    "aiEngineering": ["LLM orchestration (Anthropic, OpenAI, Gemini)", "GraphRAG", "RAG", "Agentic & automation workflows"],
+    "development": ["Python", "TypeScript", "SQL", "FastAPI", "Docker", "Claude Code", "Cursor", "REST APIs", "System design", "n8n", "Bitbucket", "Git"],
+    "productEvaluation": ["Mixed-methods research", "User-centered design", "Requirements decomposition", "Cross-functional leadership"]
   }
 }

@@ -1,36 +1,36 @@
 {
+  "featured": {
+    "title": "OrkaIntel",
+    "tagline": "Investigative Intelligence Platform",
+    "problem": "Fraud and criminal networks hide in the seams between public data sources — no single dataset reveals the shape of a scheme.",
+    "approach": "A GraphRAG platform that maps entity relationships across public data, powered by agentic AI workflows with hypothesis testing, risk scoring, and full audit trails for investigations.",
+    "stack": ["Python", "FastAPI", "Neo4j", "Next.js", "Claude", "AuraDB", "Railway", "ChromaDB", "Voyage AI Embeddings"],
+    "githubUrl": "https://github.com/ChrisVAyala90"
+  },
   "projects": [
     {
       "title": "Multi-model LLM Aggregator",
-      "description": "Prototype router that fuses responses from OpenAI, Claude, and Gemini, early exploration of model-gateways, Langchain, and token management.",
-      "keyLearning": "Model routing strategies and token optimization",
-      "techStack": ["OpenAI", "Claude", "Gemini", "Langchain", "Python"],
-      "githubUrl": "https://github.com/ChrisVAyala90",
-      "category": "AI/ML"
+      "description": "Router that fuses responses across OpenAI, Claude, and Gemini — early exploration of model gateways and token management.",
+      "stack": ["Python", "Langchain", "OpenAI", "Claude", "Gemini"],
+      "githubUrl": "https://github.com/ChrisVAyala90"
     },
     {
-      "title": "NLP Hockey Scout – Sentiment Analyzer",
-      "description": "Sports-specific sentiment pipeline using Hugging Face SportsBERT with 100% test coverage documenting model swap gains.",
-      "keyLearning": "Domain-specific NLP and comprehensive testing practices",
-      "techStack": ["Hugging Face", "SportsBERT", "Python", "NLP"],
-      "githubUrl": "https://github.com/ChrisVAyala90",
-      "category": "AI/ML"
+      "title": "NLP Hockey Scout",
+      "description": "Sports-specific sentiment pipeline using Hugging Face SportsBERT with 100% test coverage.",
+      "stack": ["Python", "Hugging Face", "SportsBERT"],
+      "githubUrl": "https://github.com/ChrisVAyala90"
     },
     {
-      "title": "Reinforcement Learning Tic-Tac-Toe",
-      "description": "Containerized FastAPI service hosting a Q-learning agent with lightweight React UI, demonstrating end-to-end model deployment.",
-      "keyLearning": "RL implementation and containerized ML deployment",
-      "techStack": ["FastAPI", "React", "Q-Learning", "Docker", "Python"],
-      "githubUrl": "https://github.com/ChrisVAyala90",
-      "category": "AI/ML"
+      "title": "RL Tic-Tac-Toe",
+      "description": "Containerized FastAPI service hosting a Q-learning agent with a React UI — end-to-end model deployment.",
+      "stack": ["Python", "FastAPI", "React", "Docker"],
+      "githubUrl": "https://github.com/ChrisVAyala90"
     },
     {
-      "title": "DraftKings Design System Management Tool",
-      "description": "Role-based PHP + MySQL application that CRUDs design tokens via JSON/XML REST endpoints, boosting hand-off clarity for engineers.",
-      "keyLearning": "Design systems automation and API development",
-      "techStack": ["PHP", "MySQL", "REST APIs", "JSON", "XML"],
-      "githubUrl": "https://github.com/ChrisVAyala90",
-      "category": "Full-Stack"
+      "title": "DK Design System Tool",
+      "description": "Role-based PHP + MySQL app that CRUDs design tokens via JSON/XML endpoints.",
+      "stack": ["PHP", "MySQL", "REST"],
+      "githubUrl": "https://github.com/ChrisVAyala90"
     }
   ]
 }
