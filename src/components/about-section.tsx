@@ -14,16 +14,16 @@ export function AboutSection() {
 
         <div className="space-y-5 text-lg leading-relaxed" style={{ color: "var(--ink-2)" }}>
           <p>
-            I've worked every side of how products get built, found, and adopted: digital and social media, UX design, product research, and now software and AI engineering, where I architect and ship production systems. That range is the point. When I take on a problem I'm working three questions at once, what the business is trying to win, where the user is getting stuck, and what is actually buildable.
+            My career has spanned the entire product lifecycle—from digital and social media to UX design, product research, and my current focus on software and AI engineering. I architect and ship production systems with a unique perspective, simultaneously addressing business goals, user friction, and technical feasibility.
           </p>
           <p>
-            Two master's degrees sit under that, Software Development from Boston University and Human-Computer Interaction, with distinction, from DePaul. Together they let me sit in an architecture review and a user-discovery session in the same afternoon and translate cleanly between them. The output is measured in business results: production AI platforms in real use, research that has moved executive roadmaps, and interfaces people actually want to use.
+            This interdisciplinary approach is backed by two master's degrees: Software Development from Boston University and Human-Computer Interaction (with distinction) from DePaul University. This background enables me to move seamlessly between deep architectural reviews and user discovery sessions, translating complex requirements into tangible business results like production-ready AI platforms and roadmap-defining research.
           </p>
           <p>
-            Outside work, my growing family comes first. The rest goes to a daily meditation practice, hockey, and the gym.
+            When I'm not building systems, I prioritize time with my family, maintain a daily meditation practice, and stay active through hockey and the gym.
           </p>
           <p>
-            If you're building something where those three forces collide, I'd like to hear what you're working on.
+            I am always looking to connect with teams building at the intersection of business, design, and engineering.
           </p>
         </div>
 
