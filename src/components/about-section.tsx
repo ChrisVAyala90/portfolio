@@ -27,7 +27,7 @@ export function AboutSection() {
           </p>
         </div>
 
-        <div className="mt-10 flex items-center gap-6 mono text-xs uppercase tracking-widest">
+        <div className="mt-10 flex items-center gap-6 mono text-xs uppercase tracking-widest [&>a]:py-2.5 [&>a]:-my-2.5">
           <a className="link" href="mailto:chris.ayala12@gmail.com">Email</a>
           <a className="link" href="https://www.linkedin.com/in/chrisvayala" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a className="link" href="https://github.com/ChrisVAyala90" target="_blank" rel="noopener noreferrer">GitHub</a>
