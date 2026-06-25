@@ -33,7 +33,7 @@ export function Header() {
           <button
             onClick={toggleTheme}
             aria-label="Toggle theme"
-            className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60"
+            className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60 cursor-pointer"
             style={{ color: "var(--ink-2)" }}
           >
             {isDark ? "light" : "dark"}
