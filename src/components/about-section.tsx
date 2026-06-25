@@ -31,6 +31,7 @@ export function AboutSection() {
           <a className="link" href="mailto:chris.ayala12@gmail.com">Email</a>
           <a className="link" href="https://www.linkedin.com/in/chrisvayala" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a className="link" href="https://github.com/ChrisVAyala90" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a className="link" href="https://x.com/chrisvayala" target="_blank" rel="noopener noreferrer">X</a>
           <a className="link" href="/ChrisVAyalaResume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↗</a>
         </div>
       </div>
