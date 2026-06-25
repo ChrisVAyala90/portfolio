@@ -1,12 +1,23 @@
 {
   "experience": [
     {
+      "company": "Life360",
+      "position": "Senior AI Partner Engineer II (Forward Deployed Engineer)",
+      "period": "Jul 2026 — Present",
+      "location": "San Mateo, CA",
+      "achievements": [
+        "Lead 0-to-1 AI and automation development, partnering with cross-functional teams to transform ambiguous processes into robust, scalable, enterprise-grade intelligence systems."
+      ]
+    },
+    {
       "company": "DraftKings",
       "position": "Senior Software Engineer, AI Platform Ops",
-      "period": "Aug 2025 — Present",
+      "period": "Jul 2025 — Jul 2026",
       "location": "Boston, MA",
       "achievements": [
-        "Engineered and scaled an internal AI platform supporting 500+ production workflows, processing ~18K automated executions monthly (~1.13M lifetime) across product, regulatory compliance, and agent orchestration.",
+        "Own the AI Ops function for an internal AI platform powering 2,000+ dev and prod workflows, directing ~18K automated executions monthly (~1.13M+ lifetime) across product, regulatory compliance, CX, and agent orchestration.",
+        "Defined an enterprise governance framework for ~7,000 automations, including a FinOps algorithm for cost-benefit analysis, and ran multi-agent audits across 1,900+ processes to mitigate security risks such as credential leaks.",
+        "Developed an autonomous AI code-review verdict subsystem (29 PRs) managing ~86K reviews across 700+ repositories, patching security flaws to verify check execution before honoring verdicts.",
         "Accelerated delivery of 10 automation epics across 6 business units, resolving 100+ tickets with a 62% same-day resolution rate and turnaround 43% below team baseline.",
         "Architected guardrail middleware for LLM content filtering and policy enforcement, achieving 100% uptime during a 437-participant AI hackathon via automated deactivation logic.",
         "Streamlined internal AI/Automation onboarding by building a self-service provisioning layer (AWS Bedrock, LiteLLM), reducing setup time from days to minutes and enabling 4.6x growth in monthly throughput."
@@ -14,8 +25,8 @@
     },
     {
       "company": "DraftKings",
-      "position": "Senior Product Researcher",
-      "period": "Jul 2022 — Aug 2025",
+      "position": "Senior Product Researcher, Platform",
+      "period": "Jul 2022 — Jul 2025",
       "location": "Boston, MA",
       "achievements": [
         "Spearheaded research programs (MaxDiff, CSAT, mixed-methods) on platform health, deposits, and responsible gaming, with findings directly informing VP-level roadmap decisions.",
@@ -61,8 +72,8 @@
     }
   ],
   "skills": {
-    "aiEngineering": ["LLM orchestration (Anthropic, OpenAI, Gemini)", "GraphRAG", "RAG", "Agentic & automation workflows"],
-    "development": ["Python", "TypeScript", "SQL", "FastAPI", "Docker", "Claude Code", "Cursor", "REST APIs", "System design", "n8n", "Bitbucket", "Git"],
-    "productEvaluation": ["Mixed-methods research", "User-centered design", "Requirements decomposition", "Cross-functional leadership"]
+    "aiEngineering": ["LLM orchestration (Anthropic, OpenAI, Gemini)", "GraphRAG", "RAG", "Agentic & automation workflows", "Evals", "LangChain", "LangGraph", "Vector databases"],
+    "development": ["Python", "TypeScript", "SQL", "FastAPI", "Docker", "Claude Code", "Cursor", "REST APIs", "System design", "n8n", "Bitbucket", "Git", "Java", "Bash", "AWS", "GCP", "Kubernetes", "CI/CD"],
+    "productEvaluation": ["Mixed-methods research", "User-centered design", "Requirements decomposition", "Cross-functional leadership", "Stakeholder management", "Technical scoping", "Solution architecture", "Deployment ownership", "User onboarding"]
   }
 }
