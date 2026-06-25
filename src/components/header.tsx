@@ -13,8 +13,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50" style={{ background: "var(--paper)", borderBottom: "1px solid var(--rule)" }}>
       <div className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
-        <a href="#top" className="mono text-sm tracking-tight hidden sm:inline" style={{ color: "var(--ink)" }}>
-          christopher ayala
+        <a href="#top" aria-label="Home" className="flex items-center gap-2.5 transition-opacity hover:opacity-60">
+          <img src={isDark ? "/logo-dark.svg" : "/logo-light.svg"} alt="" className="h-7 w-auto" />
+          <span className="mono text-sm tracking-tight hidden sm:inline" style={{ color: "var(--ink)" }}>
+            christopher ayala
+          </span>
         </a>
         <nav className="flex items-center gap-6">
           {nav.map((n) => (
@@ -35,13 +38,6 @@ export function Header() {
           >
             {isDark ? "light" : "dark"}
           </button>
-          <a href="#top" aria-label="Home" className="flex items-center transition-opacity hover:opacity-60">
-            <img
-              src={isDark ? "/logo-dark.svg" : "/logo-light.svg"}
-              alt="Christopher Ayala logo"
-              className="h-7 w-auto"
-            />
-          </a>
         </nav>
       </div>
     </header>
