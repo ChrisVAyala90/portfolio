@@ -35,6 +35,13 @@ export function Header() {
           >
             {isDark ? "light" : "dark"}
           </button>
+          <a href="#top" aria-label="Home" className="flex items-center transition-opacity hover:opacity-60">
+            <img
+              src={isDark ? "/logo-dark.svg" : "/logo-light.svg"}
+              alt="Christopher Ayala logo"
+              className="h-7 w-auto"
+            />
+          </a>
         </nav>
       </div>
     </header>
