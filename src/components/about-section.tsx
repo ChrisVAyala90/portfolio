@@ -9,7 +9,7 @@ export function AboutSection() {
         </p>
 
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05] mb-10" style={{ color: "var(--ink)" }}>
-          Full-stack technologist — engineer, product researcher, and designer. Now I build production AI where the business, the user, and the technical call are one decision.
+          Full-stack technologist — engineer, product researcher, and designer — building production AI.
         </h1>
 
         <div className="space-y-5 text-lg leading-relaxed" style={{ color: "var(--ink-2)" }}>
