@@ -15,14 +15,20 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50" style={{ background: "var(--paper)", borderBottom: "1px solid var(--rule)" }}>
       <div className="px-6">
-        <div className="max-w-3xl mx-auto h-14 flex items-center justify-between">
-          <Link to="/" aria-label="Home" className="flex items-center gap-2.5 transition-opacity hover:opacity-60">
+        {/* flex on mobile, 3-col grid on desktop so the nav sits at the true page center */}
+        <div className="max-w-3xl mx-auto h-14 flex items-center justify-between sm:grid sm:grid-cols-3">
+          <Link
+            to="/"
+            aria-label="Home"
+            className="flex items-center gap-2.5 transition-opacity hover:opacity-60 sm:justify-self-start"
+          >
             <img src={isDark ? "/logo-dark.svg" : "/logo-light.svg"} alt="" className="h-7 w-auto" />
             <span className="mono text-sm tracking-tight hidden sm:inline" style={{ color: "var(--ink)" }}>
               christopher ayala
             </span>
           </Link>
-          <nav className="flex items-center gap-6">
+
+          <nav className="flex items-center gap-5 sm:gap-6 sm:justify-self-center">
             {nav.map((n) => (
               <a
                 key={n.href}
@@ -40,15 +46,16 @@ export function Header() {
             >
               Blog
             </Link>
-            <button
-              onClick={toggleTheme}
-              aria-label="Toggle theme"
-              className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60 cursor-pointer"
-              style={{ color: "var(--ink-2)" }}
-            >
-              {isDark ? "light" : "dark"}
-            </button>
           </nav>
+
+          <button
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+            className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60 cursor-pointer sm:justify-self-end"
+            style={{ color: "var(--ink-2)" }}
+          >
+            {isDark ? "light" : "dark"}
+          </button>
         </div>
       </div>
     </header>
