@@ -24,7 +24,7 @@ export function Header() {
           >
             <img src={isDark ? "/logo-dark.svg" : "/logo-light.svg"} alt="" className="h-7 w-auto" />
             <span className="mono text-sm tracking-tight hidden sm:inline" style={{ color: "var(--ink)" }}>
-              christopher ayala
+christopher v. ayala
             </span>
           </Link>
 
