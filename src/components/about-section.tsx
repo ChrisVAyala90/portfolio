@@ -14,16 +14,16 @@ export function AboutSection() {
 
         <div className="space-y-5 text-lg leading-relaxed" style={{ color: "var(--ink-2)" }}>
           <p>
-            I’ve spent my career working across just about every part of the product lifecycle—from digital media and social to UX design and product research. These days, I’m focused on software and AI engineering. Because I’ve worn so many hats, I look at building systems a bit differently; I’m always thinking about how to balance business goals with technical feasibility while making sure things actually work for the people using them.
+            I architect and build production systems, and the way I build them is shaped by everything I did before engineering. My career has run through nearly every part of the product lifecycle—digital media and social, UX design, product, and research—and these days it all points at building AI systems. Wearing that many hats taught me to see the whole system instead of just my slice: I start with the real problem, weigh business goals against technical feasibility, and make sure the thing actually works for the people using it.
           </p>
           <p>
-            I have two master’s degrees—one in Software Development from Boston University and another in Human-Computer Interaction from DePaul (where I graduated with distinction). This background lets me jump comfortably between deep technical reviews and user research sessions. I love taking complex requirements and turning them into real results, whether that’s a new AI platform or a research-backed roadmap.
+            Two master’s degrees sit behind that range—one in Software Development from Boston University, another in Human-Computer Interaction from DePaul, where I graduated with distinction—so I move comfortably between a deep architecture review and a user-research session. I’ve put it to work on both ends: owning the AI operations for a platform that powered thousands of internal workflows, and leading research programs that reshaped executive roadmaps. I like taking ambiguous, complex problems and turning them into systems that ship and decisions that hold.
           </p>
           <p>
             Outside of work, I’m big on family time, keep a daily meditation practice, and stay active playing hockey or hitting the gym.
           </p>
           <p>
-            I’m always happy to connect with teams working where business, design, and engineering meet.
+            I’m always glad to connect with people building where business, design, and engineering meet.
           </p>
         </div>
 
