@@ -18,7 +18,7 @@ export default function App() {
       <footer className="px-6 py-10" style={{ borderTop: "1px solid var(--rule)" }}>
         <div className="max-w-3xl mx-auto flex items-center justify-between mono text-xs uppercase tracking-widest muted">
           <span>© {new Date().getFullYear()} Christopher Ayala</span>
-          <a className="link" href="#top">Back to top</a>
+          <a className="link py-3.5 -my-3.5" href="#top">Back to top</a>
         </div>
       </footer>
     </div>
