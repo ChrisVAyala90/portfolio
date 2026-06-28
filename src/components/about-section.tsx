@@ -2,7 +2,7 @@ import React from "react";
 
 export function AboutSection() {
   return (
-    <section id="about" className="px-6 pt-28 pb-24">
+    <section id="about" className="px-6 pt-12 pb-24">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05] mb-10" style={{ color: "var(--ink)" }}>
           Full-stack technologist building production AI systems.
