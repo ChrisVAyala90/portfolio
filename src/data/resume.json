@@ -20,7 +20,7 @@
       "achievements": [
         "Owned the AI Ops function for an internal AI platform powering 2,000+ dev and prod workflows — ~18K automated executions/month (1.13M+ lifetime) across product, regulatory compliance, CX, analytics, and agent orchestration.",
         "Hardened security and cost governance across ~7,000 automations by defining an enterprise governance framework — a FinOps cost-benefit algorithm plus multi-agent audits of 1,900+ processes that surfaced bottlenecks and risks like credential leaks.",
-        "Shipped an autonomous AI code-review verdict subsystem (29 PRs) that adjudicated ~86K reviews across 700+ repos, closing security gaps by verifying check execution before honoring verdicts.",
+        "Shipped an autonomous AI code-review verdict subsystem — built across 29 PRs — that has since adjudicated ~86K reviews across 700+ repos, hardened to verify check execution before honoring any verdict.",
         "Achieved an 80% one-week resolution rate across 414 tickets and 23 AI SDLC epics through orchestrated agentic execution."
       ]
     },

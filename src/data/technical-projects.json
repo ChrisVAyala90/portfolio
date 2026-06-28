@@ -2,33 +2,33 @@
   "featured": {
     "title": "OrkaIntel",
     "tagline": "Investigative Intelligence Platform",
-    "problem": "Fraud and criminal networks hide in the seams between public data sources — no single dataset reveals the shape of a scheme.",
-    "approach": "A GraphRAG platform that maps entity relationships across public data, powered by agentic AI workflows with hypothesis testing, risk scoring, and full audit trails for investigations.",
+    "problem": "Investigations stall when the signal is spread across disconnected public-data sources — no single dataset shows how entities actually connect.",
+    "approach": "A GraphRAG platform that resolves entities across public data and runs agentic workflows for hypothesis testing and scoring — built with provenance tracking, human-in-the-loop review, and full audit trails, so every conclusion is traceable.",
     "stack": ["Python", "FastAPI", "Neo4j", "Next.js", "Claude", "AuraDB", "Railway", "ChromaDB", "Voyage AI Embeddings"],
     "githubUrl": "https://github.com/ChrisVAyala90"
   },
   "projects": [
     {
       "title": "Multi-model LLM Aggregator",
-      "description": "Router that fuses responses across OpenAI, Claude, and Gemini — early exploration of model gateways and token management.",
+      "description": "A model-routing gateway across OpenAI, Claude, and Gemini with token accounting and fallback handling — provider abstraction and cost/latency control for a production LLM stack.",
       "stack": ["Python", "Langchain", "OpenAI", "Claude", "Gemini"],
       "githubUrl": "https://github.com/ChrisVAyala90"
     },
     {
       "title": "NLP Hockey Scout",
-      "description": "Sports-specific sentiment pipeline using Hugging Face SportsBERT with 100% test coverage.",
+      "description": "A domain-tuned NLP pipeline applying a sports-specific transformer (SportsBERT) to pull sentiment signal from unstructured hockey commentary.",
       "stack": ["Python", "Hugging Face", "SportsBERT"],
       "githubUrl": "https://github.com/ChrisVAyala90"
     },
     {
-      "title": "RL Tic-Tac-Toe",
-      "description": "Containerized FastAPI service hosting a Q-learning agent with a React UI — end-to-end model deployment.",
+      "title": "Reinforcement-Learning Model Serving",
+      "description": "An end-to-end train-to-deploy loop: a Q-learning agent trained, containerized, and served behind a FastAPI + React interface — model-serving infrastructure shown on a classic RL problem.",
       "stack": ["Python", "FastAPI", "React", "Docker"],
       "githubUrl": "https://github.com/ChrisVAyala90"
     },
     {
       "title": "DK Design System Tool",
-      "description": "Role-based PHP + MySQL app that CRUDs design tokens via JSON/XML endpoints.",
+      "description": "An internal design-token service with role-based access and JSON/XML APIs — one source of truth shared across design and engineering.",
       "stack": ["PHP", "MySQL", "REST"],
       "githubUrl": "https://github.com/ChrisVAyala90"
     }
