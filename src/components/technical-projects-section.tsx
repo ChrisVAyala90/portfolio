@@ -8,7 +8,7 @@ export function TechnicalProjectsSection() {
     <section id="projects" className="px-6 py-20" style={{ borderTop: "1px solid var(--rule)" }}>
       <div className="max-w-3xl mx-auto">
         <div className="mb-10 pb-3 border-b hairline">
-          <p className="mono text-xs uppercase tracking-widest muted">Selected Work</p>
+          <h2 className="mono text-xs uppercase tracking-widest muted">Selected Work</h2>
         </div>
 
         <article className="mb-20">
