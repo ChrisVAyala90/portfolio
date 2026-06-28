@@ -33,7 +33,7 @@ export function Header() {
               <a
                 key={n.href}
                 href={n.href}
-                className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60"
+                className="mono text-xs uppercase tracking-widest py-3.5 transition-opacity hover:opacity-60"
                 style={{ color: "var(--ink-2)" }}
               >
                 {n.label}
@@ -41,7 +41,7 @@ export function Header() {
             ))}
             <Link
               to="/blog"
-              className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60"
+              className="mono text-xs uppercase tracking-widest py-3.5 transition-opacity hover:opacity-60"
               style={{ color: "var(--ink-2)" }}
             >
               Blog
@@ -51,7 +51,7 @@ export function Header() {
           <button
             onClick={toggleTheme}
             aria-label="Toggle theme"
-            className="mono text-xs uppercase tracking-widest transition-opacity hover:opacity-60 cursor-pointer sm:justify-self-end"
+            className="mono text-xs uppercase tracking-widest py-3.5 transition-opacity hover:opacity-60 cursor-pointer sm:justify-self-end"
             style={{ color: "var(--ink-2)" }}
           >
             {isDark ? "light" : "dark"}

@@ -22,7 +22,7 @@ export function TechnicalProjectsSection() {
               </p>
             </div>
             <a
-              className="link mono text-xs uppercase tracking-widest"
+              className="link mono text-xs uppercase tracking-widest py-2.5 -my-2.5"
               href={featured.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export function TechnicalProjectsSection() {
                     {p.title}
                   </h4>
                   <a
-                    className="link mono text-xs uppercase tracking-widest"
+                    className="link mono text-xs uppercase tracking-widest py-2.5 -my-2.5"
                     href={p.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
