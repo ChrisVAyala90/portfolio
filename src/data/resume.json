@@ -6,7 +6,10 @@
       "period": "July 2026 – Present",
       "location": "San Mateo, CA",
       "achievements": [
-        "Lead 0-to-1 AI and automation development, partnering with cross-functional teams to transform ambiguous processes into robust, scalable, enterprise-grade intelligence systems."
+        "Serve as a cross-functional forward deployed AI transformation partner, managing end-to-end technical relationships and co-developing production-grade agentic workflows integrated across business units.",
+        "Establish systematic evaluation frameworks for deployed workflows to capture field signals for the AI Native Platform, delivering reusable patterns that accelerate subsequent deployments.",
+        "Own build-versus-buy decisions across the AI-native vendor market — separating genuine capability from positioning — to steer investment toward the highest-leverage builds.",
+        "Safeguard real-time location and family-relationship data for ~98M members, including minors — engineering data boundaries into every workflow from the first line, in partnership with Legal, Privacy, and Security."
       ]
     },
     {
@@ -15,10 +18,10 @@
       "period": "Jul 2025 – Jul 2026",
       "location": "Boston, MA",
       "achievements": [
-        "Own the AI Ops function for an internal AI platform powering 2,000+ dev and prod workflows, directing ~18K automated executions monthly (~1.13M + lifetime) across product, regulatory compliance, CX, and agent orchestration.",
-        "Defined an enterprise governance framework for ~7,000 automations, including a FinOps algorithm for cost-benefit analysis. Managed multi-agent audits for 1,900+ processes, mitigating security risks like credential leaks to guide leadership strategy.",
-        "Developed an autonomous AI code-review verdict subsystem (29 PRs) managing ~86K reviews for 700+ repos; patched security flaws to verify check execution before honoring verdicts.",
-        "Orchestrated AI SDLC execution for 23 epics and resolved 414 tickets with an 80% resolution rate within one week."
+        "Owned the AI Ops function for an internal AI platform powering 2,000+ dev and prod workflows — ~18K automated executions/month (1.13M+ lifetime) across product, regulatory compliance, CX, analytics, and agent orchestration.",
+        "Hardened security and cost governance across ~7,000 automations by defining an enterprise governance framework — a FinOps cost-benefit algorithm plus multi-agent audits of 1,900+ processes that surfaced bottlenecks and risks like credential leaks.",
+        "Shipped an autonomous AI code-review verdict subsystem (29 PRs) that adjudicated ~86K reviews across 700+ repos, closing security gaps by verifying check execution before honoring verdicts.",
+        "Achieved an 80% one-week resolution rate across 414 tickets and 23 AI SDLC epics through orchestrated agentic execution."
       ]
     },
     {
