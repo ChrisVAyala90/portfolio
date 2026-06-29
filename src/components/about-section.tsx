@@ -10,10 +10,10 @@ export function AboutSection() {
 
         <div className="space-y-5 text-lg leading-relaxed" style={{ color: "var(--ink-2)" }}>
           <p>
-            I’ve spent my career across nearly every part of the product lifecycle—UX design, product, research, and engineering—and it all converges on architecting and building production AI systems. Wearing that many hats taught me to see the whole system instead of just my slice: I start with the real problem, weigh business goals against technical feasibility, and make sure the thing actually works for the people using it.
+            I’ve spent my career across nearly every part of the product lifecycle—UX design, product, research, and engineering—and it all converges on architecting and building production AI systems. Wearing that many hats taught me to see the whole system, not just my slice: I start with the real problem, weigh business goals against technical feasibility, and make sure it works for the people using it.
           </p>
           <p>
-            Two master’s degrees ground both sides of the work—one in Software Development from Boston University, another in Human-Computer Interaction from DePaul, where I graduated with distinction—so I move comfortably between a deep architecture review and a user-research session. I’ve put it to work on both ends: owning the AI operations for a platform that powered thousands of internal workflows, and leading research programs that reshaped executive roadmaps. I like taking ambiguous, complex problems and turning them into systems that ship and decisions that hold.
+            Two master’s degrees ground both sides of the work—Software Development from Boston University and Human-Computer Interaction from DePaul, where I graduated with distinction—so I move comfortably between an architecture review and a user-research session. I’ve owned the AI operations for a platform running thousands of internal workflows, and led research programs that reshaped executive roadmaps. I turn ambiguous, complex problems into systems that ship and decisions that hold.
           </p>
           <p>
             Outside of work, I’m big on family time, keep a daily meditation practice, and stay active playing hockey or hitting the gym.
