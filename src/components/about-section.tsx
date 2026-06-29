@@ -10,16 +10,16 @@ export function AboutSection() {
 
         <div className="space-y-5 text-lg leading-relaxed" style={{ color: "var(--ink-2)" }}>
           <p>
-            I’ve spent my career across nearly every part of the product lifecycle—UX design, product, research, and engineering—and I bring all of it to building AI systems. I start in the problem space, understand why it matters, shape the right how-might-we questions, think through the whole system, engineer the solution, and keep it accountable to the people who use it.
+            I’ve spent my career working across just about every part of the product lifecycle—from digital media and social to UX design and product research. These days, I’m focused on software and AI engineering. Because I’ve worn so many hats, I look at building systems a bit differently; I’m always thinking about how to balance business goals with technical feasibility while making sure things actually work for the people using them.
           </p>
           <p>
-            Two master’s degrees ground both sides of the work—Software Development from Boston University and Human-Computer Interaction from DePaul—so I move comfortably between an architecture review and a user-research session. I’ve owned the AI operations for a platform running thousands of internal workflows, and led research programs that reshaped executive roadmaps. I turn ambiguous, complex problems into systems that ship and decisions that hold.
+            I have two master’s degrees—one in Software Development from Boston University and another in Human-Computer Interaction from DePaul (where I graduated with distinction). This background lets me jump comfortably between deep technical reviews and user research sessions. I love taking complex requirements and turning them into real results, whether that’s a new AI platform or a research-backed roadmap.
           </p>
           <p>
             Outside of work, I’m big on family time, keep a daily meditation practice, and stay active playing hockey or hitting the gym.
           </p>
           <p>
-            I’m always glad to connect with people building where business, design, and engineering meet.
+            I’m always happy to connect with teams working where business, design, and engineering meet.
           </p>
         </div>
 
