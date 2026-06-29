@@ -10,7 +10,7 @@ export function AboutSection() {
 
         <div className="space-y-5 text-lg leading-relaxed" style={{ color: "var(--ink-2)" }}>
           <p>
-            I’ve spent my career across nearly every part of the product lifecycle—UX design, product, research, and engineering—and I bring all of it to building AI systems. It always starts in the problem space and the why behind it, moves through how-might-we and systems thinking, and ends in an engineered solution that works for the people using it.
+            I’ve spent my career across nearly every part of the product lifecycle—UX design, product, research, and engineering—and I bring all of it to building AI systems. I start in the problem space, understand why it matters, shape the right how-might-we questions, think through the whole system, engineer the solution, and keep it accountable to the people who use it.
           </p>
           <p>
             Two master’s degrees ground both sides of the work—Software Development from Boston University and Human-Computer Interaction from DePaul—so I move comfortably between an architecture review and a user-research session. I’ve owned the AI operations for a platform running thousands of internal workflows, and led research programs that reshaped executive roadmaps. I turn ambiguous, complex problems into systems that ship and decisions that hold.
