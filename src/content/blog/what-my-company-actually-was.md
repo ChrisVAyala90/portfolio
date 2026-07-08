@@ -1,5 +1,5 @@
 ---
-title: The Engine Was the Moat
+title: What My Company Actually Was
 date: 2026-07-08
 excerpt: It took months of building to see what my company actually was. A few weeks later, twelve strangers reached the same conclusion on their own.
 ---
