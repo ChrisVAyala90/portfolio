@@ -1,11 +1,11 @@
 ---
 title: The Engine Was the Moat
 date: 2026-07-08
-excerpt: It took a year of building to see what my company actually was. A few weeks later, twelve strangers reached the same conclusion on their own.
+excerpt: It took months of building to see what my company actually was. A few weeks later, twelve strangers reached the same conclusion on their own.
 ---
-It took a year of building to see what my company actually was. A few weeks later, twelve strangers reached the same conclusion on their own.
+It took months of building to see what my company actually was. A few weeks later, twelve strangers reached the same conclusion on their own.
 
-I spent that year on OrkaIntel, a graph-based AI system that helps fraud investigators surface the networks hiding across public data. The demand was documented. The state auditor's reports named the process gaps. The new Director of Program Integrity published a 56-page roadmap with one clear through-line, that the technology was outdated. Individuals working with overseers and investigators told me the same thing in plainer words. A senior state official engaged directly and liked what she saw.
+I spent those months on OrkaIntel, a graph-based AI system that helps fraud investigators surface the networks hiding across public data. The demand was documented. The state auditor's reports named the process gaps. The new Director of Program Integrity published a 56-page roadmap with one clear through-line, that the technology was outdated. Individuals working with overseers and investigators told me the same thing in plainer words. A senior state official engaged directly and liked what she saw.
 
 The problem was real. The buyer was the obstacle. Selling into a government/state agency as a solo founder meant on-premises economics and procurement timelines measured in one to two years, at a point in my life with a young family and a second child on the way. I did that math honestly and stepped back from the state path.
 
