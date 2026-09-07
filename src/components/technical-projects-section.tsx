@@ -2,7 +2,10 @@ import React from "react";
 import data from "../data/technical-projects.json";
 
 export function TechnicalProjectsSection() {
-  const { featured, projects } = data;
+  const { featured, projects }: {
+    featured: { title: string; tagline: string; problem: string; approach: string; stack: string[]; githubUrl?: string; status?: string };
+    projects: { title: string; description: string; stack: string[]; githubUrl?: string; status?: string }[];
+  } = data;
 
   return (
     <section id="projects" className="px-6 py-20" style={{ borderTop: "1px solid var(--rule)" }}>
@@ -21,14 +24,15 @@ export function TechnicalProjectsSection() {
                 {featured.tagline}
               </p>
             </div>
-            <a
+            {featured.githubUrl && <a
               className="link mono text-xs uppercase tracking-widest py-2.5 -my-2.5"
               href={featured.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
               View repo ↗
-            </a>
+            </a>}
+            {featured.status && <span className="mono text-xs uppercase tracking-widest muted">{featured.status}</span>}
           </div>
 
           <div className="grid md:grid-cols-[140px_1fr] gap-y-5 md:gap-x-6">
@@ -57,17 +61,18 @@ export function TechnicalProjectsSection() {
               </div>
               <div>
                 <div className="flex items-baseline justify-between flex-wrap gap-y-1">
-                  <h4 className="text-base font-semibold" style={{ color: "var(--ink)" }}>
+                  <h3 className="text-base font-semibold" style={{ color: "var(--ink)" }}>
                     {p.title}
-                  </h4>
-                  <a
+                  </h3>
+                  {p.githubUrl && <a
                     className="link mono text-xs uppercase tracking-widest py-2.5 -my-2.5"
                     href={p.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Repo ↗
-                  </a>
+                  </a>}
+                  {p.status && <span className="mono text-xs uppercase tracking-widest muted">{p.status}</span>}
                 </div>
                 <p className="text-[15px] mt-2 leading-relaxed" style={{ color: "var(--ink-2)" }}>
                   {p.description}

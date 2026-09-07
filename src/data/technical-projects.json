@@ -5,32 +5,28 @@
     "problem": "Investigations stall when the signal is spread across disconnected public-data sources — no single dataset shows how entities actually connect.",
     "approach": "A GraphRAG platform that resolves entities across public data and runs agentic workflows for hypothesis testing and scoring — built with provenance tracking, human-in-the-loop review, and full audit trails, so every conclusion is traceable.",
     "stack": ["Python", "FastAPI", "Neo4j", "Next.js", "Claude", "AuraDB", "Railway", "ChromaDB", "Voyage AI Embeddings"],
-    "githubUrl": "https://github.com/ChrisVAyala90"
+    "status": "Private repository"
   },
   "projects": [
     {
       "title": "Multi-model LLM Aggregator",
       "description": "A model-routing gateway across OpenAI, Claude, and Gemini with token accounting and fallback handling — provider abstraction and cost/latency control for a production LLM stack.",
-      "stack": ["Python", "Langchain", "OpenAI", "Claude", "Gemini"],
-      "githubUrl": "https://github.com/ChrisVAyala90"
+      "stack": ["Python", "Langchain", "OpenAI", "Claude", "Gemini"]
     },
     {
       "title": "NLP Hockey Scout",
       "description": "A domain-tuned NLP pipeline applying a sports-specific transformer (SportsBERT) to pull sentiment signal from unstructured hockey commentary.",
-      "stack": ["Python", "Hugging Face", "SportsBERT"],
-      "githubUrl": "https://github.com/ChrisVAyala90"
+      "stack": ["Python", "Hugging Face", "SportsBERT"]
     },
     {
       "title": "Reinforcement-Learning Model Serving",
       "description": "An end-to-end train-to-deploy loop: a Q-learning agent trained, containerized, and served behind a FastAPI + React interface — model-serving infrastructure shown on a classic RL problem.",
-      "stack": ["Python", "FastAPI", "React", "Docker"],
-      "githubUrl": "https://github.com/ChrisVAyala90"
+      "stack": ["Python", "FastAPI", "React", "Docker"]
     },
     {
       "title": "DK Design System Tool",
       "description": "An internal design-token service with role-based access and JSON/XML APIs — one source of truth shared across design and engineering.",
-      "stack": ["PHP", "MySQL", "REST"],
-      "githubUrl": "https://github.com/ChrisVAyala90"
+      "stack": ["PHP", "MySQL", "REST"]
     }
   ]
 }

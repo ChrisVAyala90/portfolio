@@ -6,7 +6,7 @@ import { posts } from "../lib/posts";
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <div className="mb-10 pb-3 border-b hairline">
-      <p className="mono text-xs uppercase tracking-widest muted">{children}</p>
+      <h1 className="mono text-xs uppercase tracking-widest muted">{children}</h1>
     </div>
   );
 }

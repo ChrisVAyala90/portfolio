@@ -9,7 +9,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function ResumeSection() {
+export function ExperienceSection() {
   return (
     <section id="work" className="px-6 py-20" style={{ borderTop: "1px solid var(--rule)" }}>
       <div className="max-w-3xl mx-auto">
@@ -41,54 +41,67 @@ export function ResumeSection() {
           ))}
         </ol>
 
-        <div className="mt-20">
-          <SectionLabel>Education</SectionLabel>
-          <ol className="space-y-8">
-            {resumeData.education.map((edu, i) => (
-              <li key={i} className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
-                <div className="mono text-xs uppercase tracking-widest pt-1 numeric muted">
-                  {edu.period}
-                </div>
-                <div>
-                  <h3 className="text-base font-semibold" style={{ color: "var(--ink)" }}>
-                    {edu.institution}
-                  </h3>
-                  <p className="text-[15px] mt-0.5" style={{ color: "var(--ink-2)" }}>
-                    {edu.degree}
-                    {edu.gpa && <span className="mono text-xs ml-2 muted numeric">GPA {edu.gpa}</span>}
-                  </p>
-                  {edu.coursework && (
-                    <p className="mono text-xs mt-2 muted">{edu.coursework.join(" · ")}</p>
-                  )}
-                </div>
-              </li>
-            ))}
-          </ol>
-        </div>
+      </div>
+    </section>
+  );
+}
 
-        <div className="mt-20">
-          <SectionLabel>Skills</SectionLabel>
-          <dl className="space-y-5">
-            <div className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
-              <dt className="mono text-xs uppercase tracking-widest pt-1 muted">AI Engineering</dt>
-              <dd className="text-[15px]" style={{ color: "var(--ink-2)" }}>
-                {resumeData.skills.aiEngineering.join(" · ")}
-              </dd>
-            </div>
-            <div className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
-              <dt className="mono text-xs uppercase tracking-widest pt-1 muted">Development</dt>
-              <dd className="text-[15px]" style={{ color: "var(--ink-2)" }}>
-                {resumeData.skills.development.join(" · ")}
-              </dd>
-            </div>
-            <div className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
-              <dt className="mono text-xs uppercase tracking-widest pt-1 muted">Product & Evaluation</dt>
-              <dd className="text-[15px]" style={{ color: "var(--ink-2)" }}>
-                {resumeData.skills.productEvaluation.join(" · ")}
-              </dd>
-            </div>
-          </dl>
-        </div>
+export function EducationSection() {
+  return (
+    <section className="px-6 py-20" style={{ borderTop: "1px solid var(--rule)" }}>
+      <div className="max-w-3xl mx-auto">
+        <SectionLabel>Education</SectionLabel>
+        <ol className="space-y-8">
+          {resumeData.education.map((edu, i) => (
+            <li key={i} className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
+              <div className="mono text-xs uppercase tracking-widest pt-1 numeric muted">
+                {edu.period}
+              </div>
+              <div>
+                <h3 className="text-base font-semibold" style={{ color: "var(--ink)" }}>
+                  {edu.institution}
+                </h3>
+                <p className="text-[15px] mt-0.5" style={{ color: "var(--ink-2)" }}>
+                  {edu.degree}
+                  {edu.gpa && <span className="mono text-xs ml-2 muted numeric">GPA {edu.gpa}</span>}
+                </p>
+                {edu.coursework && (
+                  <p className="mono text-xs mt-2 muted">{edu.coursework.join(" · ")}</p>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
+export function SkillsSection() {
+  return (
+    <section className="px-6 py-20" style={{ borderTop: "1px solid var(--rule)" }}>
+      <div className="max-w-3xl mx-auto">
+        <SectionLabel>Skills</SectionLabel>
+        <dl className="space-y-5">
+          <div className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
+            <dt className="mono text-xs uppercase tracking-widest pt-1 muted">AI Engineering</dt>
+            <dd className="text-[15px]" style={{ color: "var(--ink-2)" }}>
+              {resumeData.skills.aiEngineering.join(" · ")}
+            </dd>
+          </div>
+          <div className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
+            <dt className="mono text-xs uppercase tracking-widest pt-1 muted">Development</dt>
+            <dd className="text-[15px]" style={{ color: "var(--ink-2)" }}>
+              {resumeData.skills.development.join(" · ")}
+            </dd>
+          </div>
+          <div className="grid grid-cols-[88px_1fr] md:grid-cols-[140px_1fr] gap-6">
+            <dt className="mono text-xs uppercase tracking-widest pt-1 muted">Product & Evaluation</dt>
+            <dd className="text-[15px]" style={{ color: "var(--ink-2)" }}>
+              {resumeData.skills.productEvaluation.join(" · ")}
+            </dd>
+          </div>
+        </dl>
       </div>
     </section>
   );

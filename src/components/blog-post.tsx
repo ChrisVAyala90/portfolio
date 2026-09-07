@@ -13,9 +13,9 @@ export function BlogPost() {
     return (
       <section className="px-6 pt-20 pb-24">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[15px]" style={{ color: "var(--ink-2)" }}>
+          <h1 className="text-[15px]" style={{ color: "var(--ink-2)" }}>
             Post not found.
-          </p>
+          </h1>
           <p className="mt-6">
             <Link className="link mono text-xs uppercase tracking-widest" to="/blog">
               Back to writing
